@@ -1,0 +1,95 @@
+#container2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#mini-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#rgb{
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 10%;
+    width: 200px;
+    height: 25px;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    max-height: 600px;
+    width: 600px;
+    max-width: 600px;
+    border-color: blanchedalmond;
+    border-width: thick;
+}
+#small-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    font-style: italic;
+}
+#clear{
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    background-color: #F56767;
+    border-radius: 10%;
+    width: 200px;
+    height: 25px;
+}
+#new{
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    background-color: #67A5F5;
+    border-radius: 10%;
+    width: 200px;
+    height: 25px;
+}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
